@@ -1,0 +1,182 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+nav{
+    background-color: #120E43;
+    margin-bottom: 100px;
+}
+header{
+    background-color: darkslategrey;
+}
+nav .fa-bars{
+    color: white;
+}
+nav .navbar-brand{
+    font-size: 20px;
+}
+nav .nav-link{
+    color: white !important;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav .nav-link:hover{
+    color: #DBC112 !important;
+}
+.carousel-full-section{
+    padding-bottom: 100px;
+}
+.carousel-full-section a{
+    font-size: 20px;
+    border: 2px solid green;
+    background-color: white;
+   font-weight: bold;
+}
+.facilities-full-section{
+    background-color: darkslategrey;
+}
+.facilities-full-section .card .card-body{
+    color:darkslategrey;
+}
+.package-full-section{
+    background-color: darkslategrey;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.package-full-section .package-title h2{
+    padding-bottom: 50px;
+}
+.package-full-section .section-one{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.package-full-section .section-one a{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid antiquewhite;
+    background-color: antiquewhite;
+    padding: 10px;
+    color: black;
+    margin-top: 35px;
+}
+.package-full-section .section-two{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.package-full-section .section-two a{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid antiquewhite;
+    background-color: antiquewhite;
+    padding: 10px;
+    color: black;
+    margin-top: 20px;
+}
+.package-full-section .section-three{
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    box-shadow: 0 8px 16px 0 gray;
+    background-color: white;
+    color: black;
+}
+.package-full-section .section-three a{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid antiquewhite;
+    background-color: antiquewhite;
+    padding: 10px;
+    color: black;
+    margin-top: 20px;
+}
+.package-full-section .section-four{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.package-full-section .section-four a{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid antiquewhite;
+    background-color: antiquewhite;
+    padding: 10px;
+    color: black;
+    margin-top: 20px;
+}
+.package-full-section .fa-check-circle{
+    color: darkcyan;
+}
+.question-full-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: darkslategrey;
+    color: white;
+}
+.question-full-section p{
+    color: black;
+}
+.question-full-section .question-title{
+    padding-bottom: 100px;
+}
+.footer-section{
+    padding: 50px;
+    background-color: black;
+}
+.toast{
+    opacity: 10;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 575px){
+    nav .navbar-brand{
+        font-size: 10px;
+    }
+    .facilities-full-section .card-all-section{
+       margin-bottom: 30px;
+    }
+    .facilities-full-section .card{
+        height: auto;
+    }
+    .question-full-section img{
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 576px){
+    nav .navbar-brand{
+        font-size: 10px;
+    }
+    .facilities-full-section .card{
+        height: 80vh;
+    }
+    .question-full-section img{
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 768px){
+    .facilities-full-section .card{
+        height: 80vh;
+    }
+    .question-full-section img{
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 992px){
+    .facilities-full-section .card{
+        height: 80vh;
+    }
+    .question-full-section img{
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .facilities-full-section .card{
+        height: auto;
+    }
+}
