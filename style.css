@@ -175,7 +175,7 @@ nav .nav-link:hover{
         padding-top: 50px;
     }
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1800px) {
     .facilities-full-section .card{
         height: 60vh;
     }
